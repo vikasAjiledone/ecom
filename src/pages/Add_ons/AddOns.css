@@ -1,0 +1,87 @@
+.addOnCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 50px; */
+}
+
+.add_ons_logo{
+    border: 1px solid darkgray;
+    width: 70px;
+    height: 120px;
+    background-color: rgb(243, 242, 242);
+}
+
+.add-ons-card{
+    width: 23rem;
+    margin: 1.3rem;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* height: 12rem; */
+}
+
+.learn_more_add_ons{
+    color: #0076DF;
+    border: 2px solid #0076DF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.add_ons_status{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.6); 
+    background-color: aqua;
+    width: 50px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.add_ons_heading{
+    padding: 0px 60px;
+}
+
+.add-ons-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.add_ons_dots{
+    cursor: pointer;
+    /* margin-bottom: 20p; */
+}
+
+.popup-heading{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.popup_head{
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+}
+
+.button_popup{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.popup_bg img{
+    z-index: 1;
+}
+
+.popup_body{
+    z-index: 2;
+}

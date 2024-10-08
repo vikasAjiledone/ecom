@@ -1,0 +1,187 @@
+html{
+  font-family: proximasoft-regular, 'PT Sans', sans-serif;;
+}
+
+.firstLogin-Display{
+  background-color: rgb(230, 230, 230);
+  height: 100vh;
+}
+
+.support_btn{
+  border: 2px solid limegreen;
+  color: limegreen;
+  padding: 10px;
+  font-size: 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.firstLogin-logo{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.firstLogin_Form{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 25px;
+ line-height: 30px;
+}
+
+.firstLogin_heading{
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+
+.firstLogin_label{
+  padding: 5px 0;
+}
+
+.firstLogin_input{
+  padding: 5px;
+  outline: none;
+  width: 400px;
+  border: 1px solid limegreen;
+  height: 30px;
+}
+
+.firstLogin_input::placeholder{
+  color: grey;
+}
+
+.Next-button{
+  margin: 10px 0;
+}
+
+.next_btn{
+  margin-top: 20px;
+  width: 400px;
+  padding: 12px 0;
+  color: white;
+  background-color: #7CC142;
+  border: none;
+  /* font-size: 20px; */
+  cursor: pointer;
+}
+
+.firstlogin-bottom{
+  background-color: #2a2e3d;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstlogin-bottom-text a{
+  color: #a7a6a6;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.firstlogin-bottom-line{
+  color: #a7a6a6;
+}
+
+
+/* <------Main Login Form-------> */
+
+.main-login-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.main-login-form-heading{
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.input-field{
+  position: relative;
+  margin-top: 30px;
+}
+.input-field input{
+  width: 500px;
+  height: 40px;
+  border-radius: 6px;
+  /* font-size: 18px; */
+  padding: 0 15px;
+  border: 1px solid darkgrey;
+  color: darkgrey;
+  outline: none;
+  
+}
+.input-field label{
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: darkgray;
+  font-size: 12px;
+  pointer-events: none;
+  transition: 0.3s;
+}
+input:focus{
+  border: 1px solid grey;
+}
+input:focus ~ label,
+input:valid ~ label{
+  top: 0;
+  left: 15px;
+  /* font-size: 16px; */
+  padding: 0 2px;
+  background: #fff;
+}
+
+.forgot_password{
+  padding: 20px 0;
+}
+
+.forgot_password a{
+  color: blue;
+  font-size: 14px;
+}
+
+.confidencial_btn{
+  color: rgb(102, 102, 102);
+  background-color: rgb(236, 234, 234);
+  font-size: 11px;
+  border: 0.4px solid darkgrey;
+  height: 40px;
+  width: 500px;
+  cursor: pointer;
+
+}
+
+.signin_form_btn{
+  margin: 10px 0;
+}
+
+.signin_btn{
+  width: 500px;
+  height: 50px;
+  font-size: 20px;
+  background-color: grey;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.Recapcha{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}

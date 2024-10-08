@@ -1,0 +1,39 @@
+.support_content {
+  background-color: white;
+}
+
+.support_management_content {
+  gap: 10px;
+}
+
+.support_card_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.support_card {
+  flex: 0 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+  width: 18rem;
+  margin: 20px;
+}
+
+.support_card li{
+  line-height: 30px;
+}
+
+.support_label{
+  text-decoration: none;
+  color: black;
+}
+
+.support_card:hover {
+  background-color: #f0f0f0;
+}
+
+.support_heading_card{
+  margin: 5px 0;
+}

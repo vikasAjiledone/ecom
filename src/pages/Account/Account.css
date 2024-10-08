@@ -1,0 +1,102 @@
+.heading_account{
+    margin-left: 50px;
+    margin-top: 150px;
+    font-size: 27px;
+}
+
+.account_tag{
+    margin-left: 50px;
+    margin-top: 0px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 15px;
+}
+
+.account_details{
+    background-color: white;
+    margin: 30px 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.created_acc_info{
+    color: rgba(0, 0, 0, 0.6); 
+    font-size: 14px;
+}
+
+.imp_info{
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.6); 
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.change_pass_btn{
+    border: 1px solid #0076DF;
+    border-radius: 5px;
+    padding: 10px;
+    color: #0076DF;
+    background-color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.edit_details_btn{
+    border: none;
+    border-radius: 5px;
+    padding: 11px;
+    background-color: #0076DF;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.subscription{
+    background-color: white;
+    margin: 30px 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.subs_para{
+    color: rgba(0, 0, 0, 0.6); 
+    font-size: 14px;
+}
+
+.sign_up_acc{
+    border: none;
+    border-radius: 5px;
+    padding: 11px;
+    background-color: #0076DF;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.toggle_component{
+    margin: 10px 50px;
+    cursor: pointer;
+}
+
+.toggle_word{
+    padding: 0 10px;
+    color: rgba(0, 0, 0, 0.6); 
+    font-size: 14px;
+}
+
+.details_logo{
+    display: flex;
+    align-items: center;
+}
+
+.detail_data{
+    padding-left: 10px;
+}
+
+#toggle{
+    color: black;
+    border-bottom: 2px solid #0076DF;
+    padding-bottom: 10px;
+}
